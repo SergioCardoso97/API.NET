@@ -13,7 +13,7 @@ public class HelloWorldController: ControllerBase
          _logger = logger;
     }
 
-
+    [HttpGet]
     public IActionResult Get()
     {
         _logger.LogInformation("Retorno Cumplido");
